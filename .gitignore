@@ -1,1 +1,2 @@
 serverconfig/*.toml
+session.lock
