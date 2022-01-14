@@ -1,5 +1,5 @@
 # Initialize new players
-execute as @a[tag=!init] run function copecraft:events/init-player
+execute as @a[tag=!init] run function skyblock:events/init-player
 
 
 # ════ Menu(s) ════ #
