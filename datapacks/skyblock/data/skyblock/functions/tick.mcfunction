@@ -2,7 +2,7 @@
 execute as @a[tag=!init] run function skyblock:events/init-player
 
 
-# ════ Menu(s) ════ #
+# ════ Menus ════ #
 
 # Menu Star - Check that one exists
 execute as @a[tag=init] run execute store result score @s skyblock-menu-stars run clear @s minecraft:nether_star{MenuStar:1b} 0
@@ -18,3 +18,6 @@ execute as @a[nbt={SelectedItem:{tag:{MenuStar:1b}}}] run function skyblock:menu
 
 # Menu Chest - Close
 execute as @a[nbt=!{SelectedItem:{tag:{MenuStar:1b}}}] run tp @e[tag=menu_chest] 0 -250 0
+
+# ════ UI Elements ════ #
+execute as @a[tag=init] run function skyblock:sidebar/skyblock
