@@ -1,2 +1,2 @@
 #                  11
-scoreboard players set . skyblock-sidebar 11
+scoreboard players set ........... skyblock-sidebar 11
