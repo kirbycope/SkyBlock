@@ -25,7 +25,7 @@ execute if score Time(Ticks): skyblock-clock matches 14000..14999 run function s
 execute if score Time(Ticks): skyblock-clock matches 15000..15999 run function skyblock:clock/9pm
 execute if score Time(Ticks): skyblock-clock matches 16000..16999 run function skyblock:clock/10pm
 execute if score Time(Ticks): skyblock-clock matches 17000..17999 run function skyblock:clock/11pm
-execute if score Time(Ticks): skyblock-clock matches 18000..18999 run function skyblock:clock/12pm
+execute if score Time(Ticks): skyblock-clock matches 18000..18999 run function skyblock:clock/12am
 execute if score Time(Ticks): skyblock-clock matches 19000..19999 run function skyblock:clock/1am
 execute if score Time(Ticks): skyblock-clock matches 20000..20999 run function skyblock:clock/2am
 execute if score Time(Ticks): skyblock-clock matches 21000..21999 run function skyblock:clock/3am
