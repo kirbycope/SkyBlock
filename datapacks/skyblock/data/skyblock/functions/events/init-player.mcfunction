@@ -8,6 +8,7 @@ item replace entity @s hotbar.8 with minecraft:nether_star{display:{Name:'[{"tex
 
 # [UI] "Objective: Break a log"
 bossbar add skyblock:bossbar-log [{"text":"Objective: "},{"text":"Break a log","color":"yellow"}]
+bossbar set skyblock:bossbar-log value 100
 bossbar set skyblock:bossbar-log players @s
 
 # [UI] Sidebar
