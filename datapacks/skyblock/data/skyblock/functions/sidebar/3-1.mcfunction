@@ -1,4 +1,4 @@
-scoreboard players reset __ skyblock-sidebar
+scoreboard players reset ... skyblock-sidebar
 # Break a log       3
 scoreboard players set Break skyblock-sidebar 3
 team add sidebar-3
