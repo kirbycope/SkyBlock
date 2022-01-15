@@ -1,3 +1,4 @@
-# Create a listener for wood in player init
-# Tellraw if 1.. the first time, then keep score that we did that
-# then track how many more are mined?
+# Oak Logs
+execute if entity @a[scores={skyblock-oak-log-mined=1}] run tellraw @a ["",{"text":"COLLECTION UNLOCKED","bold":true,"color":"gold"},{"text":" Oak Wood","color":"yellow"}]
+execute if entity @a[scores={skyblock-oak-wood-mined=1}] run tellraw @a ["",{"text":"COLLECTION UNLOCKED","bold":true,"color":"gold"},{"text":" Oak Wood","color":"yellow"}]
+execute if entity @a[tag=!collected-wood,scores={skyblock-oak-wood-mined=1}] run tag @s add collected-wood
