@@ -22,6 +22,8 @@ team add sidebar-6
 team add sidebar-7
 team add sidebar-8
 team add sidebar-9
+team join sidebar-9 ☀
+team join sidebar-9 ☽
 team add sidebar-10
 team add sidebar-11
 team add sidebar-12
