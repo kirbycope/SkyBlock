@@ -5,4 +5,4 @@ scoreboard objectives remove skyblock-crafting-table-crafted
 bossbar remove skyblock:bossbar-workbench
 
 # TODO, next quest
-scoreboard players set @a skyblock-quest-id 0
+execute run function skyblock:quests/03/start
