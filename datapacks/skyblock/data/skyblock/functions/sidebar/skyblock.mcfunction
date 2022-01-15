@@ -64,6 +64,7 @@ scoreboard players set Break skyblock-sidebar 3
 team add sidebar-3
 team modify sidebar-3 color yellow
 team modify sidebar-3 suffix {"text": " a log","color": "yellow"}
+team join sidebar-3 Break
 
 #                   2
 scoreboard players set .... skyblock-sidebar 2
@@ -71,3 +72,4 @@ scoreboard players set .... skyblock-sidebar 2
 # www.hypixel.net   1
 scoreboard players set www.hypixel.net skyblock-sidebar 1
 team modify sidebar-1 color yellow
+team join sidebar-1 www.hypixel.net
