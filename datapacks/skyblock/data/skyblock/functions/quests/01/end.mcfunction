@@ -5,4 +5,4 @@
 bossbar remove skyblock:bossbar-log
 
 # Start next quest
-scoreboard players set @a skyblock-quest-id 2
+execute run function skyblock:quests/02/start
