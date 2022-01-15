@@ -32,6 +32,7 @@ execute if entity @a[scores={skyblock-quest-id=1}] run function skyblock:quests/
 # 2 "Creaft a workbench"
 execute if entity @a[scores={skyblock-quest-id=2}] run function skyblock:quests/02/check-progress
 
+
 # ════ UI Elements ════ #
 execute as @a[tag=init] run function skyblock:sidebar/skyblock
 execute as @a[tag=init] run function skyblock:actionbar/health-defense-mana
