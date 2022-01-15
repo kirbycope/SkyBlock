@@ -19,3 +19,7 @@ tellraw @s {"text":" \u0020 \u0020This is your island! The SkyBlock\n \u0020univ
 
 # Start the first quest
 execute run function skyblock:quests/01/start
+
+# Collections
+scoreboard objectives add skyblock-oak-log-mined minecraft.mined:minecraft.oak_log
+scoreboard objectives add skyblock-oak-wood-mined minecraft.mined:minecraft.oak_wood

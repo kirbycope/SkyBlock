@@ -1,6 +1,10 @@
 # Initialize new players
 execute as @a[tag=!init] run function skyblock:events/init-player
 
+# ════ Collections ════ #
+execute if entity @a[scores={skyblock-oak-log-mined=1,skyblock-oak-wood-mined=0}] run tellraw @a "COLLECTION UNLOCKED Oak Wood"
+execute if entity @a[scores={skyblock-oak-log-mined=0,skyblock-oak-wood-mined=1}] run tellraw @a "COLLECTION UNLOCKED Oak Wood"
+
 
 # ════ Menus ════ #
 
@@ -24,7 +28,6 @@ execute as @a[nbt=!{SelectedItem:{tag:{MenuStar:1b}}}] run tp @e[tag=menu_chest]
 
 # 1 "Break a log"
 execute if entity @a[scores={skyblock-quest-id=1}] run function skyblock:quests/01/check-progress
-execute if entity @a[scores={skyblock-quest-id=1}] run tellraw @a "hooey"
 
 
 # ════ UI Elements ════ #
