@@ -19,5 +19,12 @@ execute as @a[nbt={SelectedItem:{tag:{MenuStar:1b}}}] run function skyblock:menu
 # Menu Chest - Close
 execute as @a[nbt=!{SelectedItem:{tag:{MenuStar:1b}}}] run tp @e[tag=menu_chest] 0 -250 0
 
+
+# ════ Quests ════ #
+
+# 1 "Break a log"
+execute if entity @a[scores={skyblock-quest-id=1}] run function copecraft:quests/01/check-progress
+
+
 # ════ UI Elements ════ #
 execute as @a[tag=init] run function skyblock:sidebar/skyblock
