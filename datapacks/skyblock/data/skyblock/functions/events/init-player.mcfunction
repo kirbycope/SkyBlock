@@ -1,6 +1,10 @@
 # Tag player so this only runs for them once
 tag @a[tag=!init] add init
 
+# Set Quest tracker to 0
+scoreboard objectives add skyblock-quest-id dummy
+scoreboard players set @s copecraft-quest-id 0
+
 # Chest Menu item
 scoreboard objectives add skyblock-menu-stars dummy
 scoreboard players set @s skyblock-menu-stars 1
