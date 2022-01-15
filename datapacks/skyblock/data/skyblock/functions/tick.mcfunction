@@ -2,7 +2,7 @@
 execute as @a[tag=!init] run function skyblock:events/init-player
 
 # ════ Collections ════ #
-execute if entity @a[scores={skyblock-oak-log-mined=1,skyblock-oak-wood-mined=0}] run tellraw @a "COLLECTION UNLOCKED Oak Wood"
+execute if entity @a[scores={skyblock-oak-log-mined=1,skyblock-oak-wood-mined=0}] run tellraw @a "COLLECTION UNLOCKED Oak Log"
 execute if entity @a[scores={skyblock-oak-log-mined=0,skyblock-oak-wood-mined=1}] run tellraw @a "COLLECTION UNLOCKED Oak Wood"
 
 
