@@ -13,6 +13,20 @@ item replace entity @s hotbar.8 with minecraft:nether_star{display:{Name:'[{"tex
 # [UI] Sidebar
 scoreboard objectives add skyblock-sidebar dummy {"text":"SKYBLOCK", "color":"yellow","bold": true}
 scoreboard objectives setdisplay sidebar skyblock-sidebar
+team add sidebar-1
+team add sidebar-2
+team add sidebar-3
+team add sidebar-4
+team add sidebar-5
+team add sidebar-6
+team add sidebar-7
+team add sidebar-8
+team add sidebar-9
+team join sidebar-9 ☀
+team join sidebar-9 ☽
+team add sidebar-10
+team add sidebar-11
+team add sidebar-12
 
 # Welcome message
 tellraw @s {"text":" \u0020 \u0020This is your island! The SkyBlock\n \u0020universe has many lands to discover,\n secrets to uncover, and people to meet.\n \u0020 Collect resources, craft items, and\ncomplete objectives to advance your way\n \u0020 \u0020 \u0020 \u0020 \u0020 through SkyBlock.\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Have fun!\n\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583\u2583","color":"yellow"}
