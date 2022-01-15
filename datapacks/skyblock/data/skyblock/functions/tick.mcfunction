@@ -29,6 +29,8 @@ execute as @a[nbt=!{SelectedItem:{tag:{MenuStar:1b}}}] run tp @e[tag=menu_chest]
 # 1 "Break a log"
 execute if entity @a[scores={skyblock-quest-id=1}] run function skyblock:quests/01/check-progress
 
+# 2 "Creaft a workbench"
+execute if entity @a[scores={skyblock-quest-id=2}] run function skyblock:quests/02/check-progress
 
 # ════ UI Elements ════ #
 execute as @a[tag=init] run function skyblock:sidebar/skyblock

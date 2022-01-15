@@ -1,3 +1,6 @@
+# Announce new objective
+tellraw @a ["",{"text":"NEW OBJECTIVE","bold":true,"color":"gold"},{"text":"\n"},{"text":"Break a log","color":"white"}]
+
 # Set the Quest ID
 scoreboard players set @a skyblock-quest-id 1
 # Set the Quest Objective
