@@ -3,14 +3,17 @@ scoreboard objectives add skyblock-initialized dummy
 scoreboard players set World skyblock-initialized 1
 
 # [Calendar] Day
-scoreboard objectives add skyblock-days dummy
-scoreboard players set World skyblock-days 1
+scoreboard objectives add skyblock-day dummy
+scoreboard players set World skyblock-day 1
 # [Calendar] Month
-scoreboard objectives add skyblock-months dummy
-scoreboard players set World skyblock-months 1
+scoreboard objectives add skyblock-month dummy
+scoreboard players set World skyblock-month 1
 # [Calendar] Year
-scoreboard objectives add skyblock-years dummy
-scoreboard players set World skyblock-years 1
+scoreboard objectives add skyblock-year dummy
+scoreboard players set World skyblock-year 1
+
+# [Clock] Time
+scoreboard objectives add skyblock-clock dummy
 
 # [Chest Menu] Item Count
 scoreboard objectives add skyblock-menu-stars dummy
