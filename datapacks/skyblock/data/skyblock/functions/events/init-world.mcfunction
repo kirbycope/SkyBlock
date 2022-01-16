@@ -38,3 +38,6 @@ team join sidebar-9 ☽
 team add sidebar-10
 team add sidebar-11
 team add sidebar-12
+
+# [NPC] Jerry
+summon villager 3 65 26 {CustomName:'[{"text":"Jerry ","color":"white"},{"text":"CLICK","color":"yellow"}]',Attributes:[{Name:"generic.knockback_resistance",Base:1},{Name:"generic.movement_speed",Base:.001}],Invulnerable:1b,VillagerData:{type:"plains",profession:"nitwit",level:99}}
