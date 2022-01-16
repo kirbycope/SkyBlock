@@ -4,9 +4,10 @@ scoreboard players reset Summer skyblock-sidebar
 scoreboard players reset Autumn skyblock-sidebar
 scoreboard players reset Winter skyblock-sidebar
 
-# Increment the day (at sunrise, 6am)
-execute if score Time(Ticks): skyblock-clock matches 0 run scoreboard players add World skyblock-day 1
+# Increment the day (midnight, 6am)
+execute if score Time(Ticks): skyblock-clock matches 18000 run scoreboard players add World skyblock-day 1
 # Todo: Increment the day (when player sleeps)
+execute as @a[nbt={SleepTimer:5s}] run scoreboard players add World skyblock-day 1
 
 # Increment the month
 execute if score World skyblock-day matches 31.. run scoreboard players add World skyblock-month 1
