@@ -40,5 +40,9 @@ execute if entity @a[scores={skyblock-quest-id=4}] run function skyblock:quests/
 
 
 # ════ UI Elements ════ #
+
+# Sidebar - SKYBLOCK
 execute as @a[tag=init] run function skyblock:sidebar/skyblock
+
+# Actionbar - Health, Defense, and Mana
 execute as @a[tag=init] run function skyblock:actionbar/health-defense-mana
