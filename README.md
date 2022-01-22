@@ -1,3 +1,5 @@
+![SkyBlock](https://github.com/kirbycope/SkyBlock/raw/main/skyblock.png)
+
 # SkyBlock
 Skyblock is one of the most popular survival gamemodes. The idea is that you can create and expand your very own world infinitely with only minimal materials.
 
