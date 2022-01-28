@@ -2,7 +2,7 @@
 tag @a[tag=!init] add init
 
 # Set Quest tracker to 0
-scoreboard players set @s copecraft-quest-id 0
+scoreboard players set @s skyblock-quest-id 0
 
 # Chest Menu - Menu Item
 scoreboard players set @s skyblock-menu-stars 1
