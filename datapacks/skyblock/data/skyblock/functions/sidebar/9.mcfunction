@@ -5,7 +5,7 @@ scoreboard players reset ☽ skyblock-sidebar
 # Get the current time and save to a scoreboard
 execute store result score Time(Ticks): skyblock-clock run time query daytime
 
-# Tick 0 = Beginning of the Minecraft day (6am) ☀
+# Tick 0 - Beginning of the Minecraft day (6am) ☀
 execute if score Time(Ticks): skyblock-clock matches 0..999 run function skyblock:clock/6am
 execute if score Time(Ticks): skyblock-clock matches 1000..1999 run function skyblock:clock/7am
 execute if score Time(Ticks): skyblock-clock matches 2000..2999 run function skyblock:clock/8am
@@ -19,7 +19,7 @@ execute if score Time(Ticks): skyblock-clock matches 9000..9999 run function sky
 execute if score Time(Ticks): skyblock-clock matches 10000..10999 run function skyblock:clock/4pm
 execute if score Time(Ticks): skyblock-clock matches 11000..11999 run function skyblock:clock/5pm
 execute if score Time(Ticks): skyblock-clock matches 12000..12999 run function skyblock:clock/6pm
-# Tick 13000 - 	Beginning of the Minecraft night (7pm) ☽
+# Tick 13000 - Beginning of the Minecraft night (7pm) ☽
 execute if score Time(Ticks): skyblock-clock matches 13000..13999 run function skyblock:clock/7pm
 execute if score Time(Ticks): skyblock-clock matches 14000..14999 run function skyblock:clock/8pm
 execute if score Time(Ticks): skyblock-clock matches 15000..15999 run function skyblock:clock/9pm
