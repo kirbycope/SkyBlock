@@ -22,7 +22,7 @@ execute as @a[tag=init] run execute if entity @s[scores={skyblock-menu-stars=0}]
 execute as @a[nbt={SelectedItem:{tag:{MenuStar:1b}}}] run function skyblock:menus/chest-menu-open
 
 # Menu Chest - Close
-execute as @a[nbt=!{SelectedItem:{tag:{MenuStar:1b}}}] run tp @e[tag=menu_chest] 0 -250 0
+execute as @a[nbt=!{SelectedItem:{tag:{MenuStar:1b}}}]  run function skyblock:menus/chest-menu-close
 
 
 # ════ Quests ════ #
