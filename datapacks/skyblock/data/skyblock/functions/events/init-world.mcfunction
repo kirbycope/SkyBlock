@@ -24,7 +24,6 @@ scoreboard objectives add oak_wood_mined minecraft.mined:minecraft.oak_wood
 
 # [Quest Tracker]
 scoreboard objectives add quest_id dummy
-scoreboard players add @a quest_id 0
 
 # [Sidebar] SKYBLOCK
 scoreboard objectives add skyblock_sidebar dummy {"text":"SKYBLOCK", "color":"yellow","bold": true}
