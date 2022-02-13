@@ -1,3 +1,3 @@
 # {prefix}☀          9
 scoreboard players set ☀ skyblock-sidebar 9
-team modify sidebar_9 color yellow
+team modify sidebar-9 color yellow
