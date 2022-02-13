@@ -1,2 +1,2 @@
 # Initialize World
-execute unless entity @a[scores={loaded=1}] run function skyblock:events/init-world
+execute unless entity @a[scores={skyblock-initialized=1}] run function skyblock:events/init-world

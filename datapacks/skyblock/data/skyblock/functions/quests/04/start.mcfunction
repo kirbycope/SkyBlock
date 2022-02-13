@@ -2,7 +2,7 @@
 tellraw @a ["",{"text":"NEW OBJECTIVE","bold":true,"color":"gold"},{"text":"\n"},{"text":"Talk to Jerry","color":"white"}]
 
 # Set the Quest ID
-scoreboard players set @a quest_id 4
+scoreboard players set @a skyblock-quest-id 4
 # Set the Quest Objective
 scoreboard objectives add talked-to-villager minecraft.custom:talked_to_villager
 

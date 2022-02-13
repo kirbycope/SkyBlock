@@ -2,7 +2,7 @@
 tellraw @a ["",{"text":"NEW OBJECTIVE","bold":true,"color":"gold"},{"text":"\n"},{"text":"Craft a workbench","color":"white"}]
 
 # Set the Quest ID
-scoreboard players set @a quest_id 2
+scoreboard players set @a skyblock-quest-id 2
 # Set the Quest Objective
 scoreboard objectives add skyblock-crafting-table-crafted minecraft.crafted:minecraft.crafting_table
 

@@ -1,6 +1,6 @@
-scoreboard players reset ... skyblock_sidebar
+scoreboard players reset ... skyblock-sidebar
 # Break a log       3
-scoreboard players set Break skyblock_sidebar 3
+scoreboard players set Break skyblock-sidebar 3
 team modify sidebar-3 color yellow
 team modify sidebar-3 suffix {"text": " a log","color": "yellow"}
 team join sidebar-3 Break
