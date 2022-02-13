@@ -1,3 +1,3 @@
 # ════ Objective "Break a log" ════ #
-execute if entity @a[scores={skyblock-oak-log-mined=1..}] run function skyblock:quests/01/end
-execute if entity @a[scores={skyblock-oak-wood-mined=1..}] run function skyblock:quests/01/end
+execute if entity @a[scores={oak_log_mined=1..}] run function skyblock:quests/01/end
+execute if entity @a[scores={oak_wood_mined=1..}] run function skyblock:quests/01/end

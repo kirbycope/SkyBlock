@@ -3,8 +3,8 @@ execute as @a[tag=!init] run function skyblock:events/init-player
 
 
 # ════ Collections ════ #
-execute if entity @a[tag=!collected-wood,scores={skyblock-oak-log-mined=1}] run function skyblock:collections/first-time
-execute if entity @a[tag=!collected-wood,scores={skyblock-oak-wood-mined=1}] run function skyblock:collections/first-time
+execute if entity @a[tag=!collected-wood,scores={oak_log_mined=1}] run function skyblock:collections/first-time
+execute if entity @a[tag=!collected-wood,scores={oak_wood_mined=1}] run function skyblock:collections/first-time
 
 
 # ════ Menus ════ #

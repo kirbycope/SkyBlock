@@ -19,8 +19,8 @@ scoreboard objectives add clock dummy
 scoreboard objectives add menu_stars dummy
 
 # [Collections] Oak Log
-scoreboard objectives add skyblock-oak-log-mined minecraft.mined:minecraft.oak_log
-scoreboard objectives add skyblock-oak-wood-mined minecraft.mined:minecraft.oak_wood
+scoreboard objectives add oak_log_mined minecraft.mined:minecraft.oak_log
+scoreboard objectives add oak_wood_mined minecraft.mined:minecraft.oak_wood
 
 # [Quest Tracker]
 scoreboard objectives add quest_id dummy
