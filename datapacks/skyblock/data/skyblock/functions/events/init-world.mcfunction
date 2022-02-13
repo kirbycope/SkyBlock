@@ -1,29 +1,34 @@
 # Set the scoreboard so this only runs once
-scoreboard objectives add skyblock-initialized dummy
-scoreboard players set World skyblock-initialized 1
+scoreboard objectives add loaded dummy
+scoreboard players set World loaded 1
 
 # [Calendar] Day
-scoreboard objectives add skyblock-day dummy
-scoreboard players set World skyblock-day 1
+scoreboard objectives add day dummy
+scoreboard players set World day 1
 # [Calendar] Month
-scoreboard objectives add skyblock-month dummy
-scoreboard players set World skyblock-month 1
+scoreboard objectives add month dummy
+scoreboard players set World month 1
 # [Calendar] Year
-scoreboard objectives add skyblock-year dummy
-scoreboard players set World skyblock-year 1
+scoreboard objectives add year dummy
+scoreboard players set World year 1
 
 # [Clock] Time
-scoreboard objectives add skyblock-clock dummy
+scoreboard objectives add clock dummy
 
 # [Chest Menu] Item Count
-scoreboard objectives add skyblock-menu-stars dummy
+scoreboard objectives add menu_stars dummy
+
+# [Collections] Oak Log
+scoreboard objectives add skyblock-oak-log-mined minecraft.mined:minecraft.oak_log
+scoreboard objectives add skyblock-oak-wood-mined minecraft.mined:minecraft.oak_wood
 
 # [Quest Tracker]
-scoreboard objectives add skyblock-quest-id dummy
+scoreboard objectives add quest_id dummy
+scoreboard players add @a quest_id 0
 
 # [Sidebar] SKYBLOCK
-scoreboard objectives add skyblock-sidebar dummy {"text":"SKYBLOCK", "color":"yellow","bold": true}
-scoreboard objectives setdisplay sidebar skyblock-sidebar
+scoreboard objectives add skyblock_sidebar dummy {"text":"SKYBLOCK", "color":"yellow","bold": true}
+scoreboard objectives setdisplay sidebar skyblock_sidebar
 team add sidebar-1
 team add sidebar-2
 team add sidebar-3
