@@ -1,3 +1,3 @@
 # 8:00pm ☽          9
 execute run function skyblock:clock/night
-team modify sidebar-9 prefix {"text": "8:00pm ","color": "gray"}
+team modify sidebar_9 prefix {"text": "8:00pm ","color": "gray"}

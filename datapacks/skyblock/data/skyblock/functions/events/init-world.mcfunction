@@ -1,43 +1,47 @@
 # Set the scoreboard so this only runs once
-scoreboard objectives add skyblock-initialized dummy
-scoreboard players set World skyblock-initialized 1
+scoreboard players set global loaded 1
 
 # [Calendar] Day
-scoreboard objectives add skyblock-day dummy
-scoreboard players set World skyblock-day 1
+scoreboard objectives add day dummy
+scoreboard players set World day 1
 # [Calendar] Month
-scoreboard objectives add skyblock-month dummy
-scoreboard players set World skyblock-month 1
+scoreboard objectives add month dummy
+scoreboard players set World month 1
 # [Calendar] Year
-scoreboard objectives add skyblock-year dummy
-scoreboard players set World skyblock-year 1
+scoreboard objectives add year dummy
+scoreboard players set World year 1
 
 # [Clock] Time
-scoreboard objectives add skyblock-clock dummy
+scoreboard objectives add clock dummy
 
 # [Chest Menu] Item Count
-scoreboard objectives add skyblock-menu-stars dummy
+scoreboard objectives add menu_stars dummy
+
+# [Collections] Oak Log
+scoreboard objectives add skyblock-oak-log-mined minecraft.mined:minecraft.oak_log
+scoreboard objectives add skyblock-oak-wood-mined minecraft.mined:minecraft.oak_wood
 
 # [Quest Tracker]
-scoreboard objectives add skyblock-quest-id dummy
+scoreboard objectives add quest_id dummy
+scoreboard players set @a quest_id 0
 
 # [Sidebar] SKYBLOCK
 scoreboard objectives add skyblock-sidebar dummy {"text":"SKYBLOCK", "color":"yellow","bold": true}
 scoreboard objectives setdisplay sidebar skyblock-sidebar
-team add sidebar-1
-team add sidebar-2
-team add sidebar-3
-team add sidebar-4
-team add sidebar-5
-team add sidebar-6
-team add sidebar-7
-team add sidebar-8
-team add sidebar-9
-team join sidebar-9 ☀
-team join sidebar-9 ☽
-team add sidebar-10
-team add sidebar-11
-team add sidebar-12
+team add sidebar_1
+team add sidebar_2
+team add sidebar_3
+team add sidebar_4
+team add sidebar_5
+team add sidebar_6
+team add sidebar_7
+team add sidebar_8
+team add sidebar_9
+team join sidebar_9 ☀
+team join sidebar_9 ☽
+team add sidebar_10
+team add sidebar_11
+team add sidebar_12
 
 # [NPC] Jerry
 summon villager 3 65 26 {CustomNameVisible:1,CustomName:'[{"text":"Jerry ","color":"white"},{"text":"CLICK","color":"yellow"}]',Attributes:[{Name:"generic.knockback_resistance",Base:1},{Name:"generic.movement_speed",Base:.001}],Invulnerable:1b,VillagerData:{type:"plains",profession:"nitwit",level:99},Rotation:[180f,0f]}
